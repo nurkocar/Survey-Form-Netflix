@@ -1,3 +1,9 @@
+# Link To My Project [Netflix Survey Form](https://nurkocar.github.io/Survey-Form-Netflix/)
+
+## Here is the view of my project...
+
+![Netflix Survey Form Demo](./images/NetflixSurveyForm.gif)
+
 # Project-001 :Survey Form (HC-01)
 
 ## Description
