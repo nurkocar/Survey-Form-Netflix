@@ -14,14 +14,14 @@ body {
 
 #container {
     background-color: rgba(0, 0, 0, 0.3);
-    margin: 30px 100px;
+    margin: 2% 6%;
 }
 
 #title {
     text-align: center;
     font-family: 'Bowlby One SC', cursive;
-    font-size: 50px;
-    padding-top: 15px;
+    font-size: 3.12rem;
+    padding-top: 2%;
     letter-spacing: 5px;
 }
 
@@ -31,48 +31,49 @@ span {
 
 #description {
     text-align: center;
-    font-size: 25px;
+    font-size: 1.56rem;
     font-family: 'Sorts Mill Goudy', sans-serif;
-    margin-bottom: 15px;
+    margin-bottom: 2%;
 }
 
 #survey_form {
-    width: 500px;
+    width: 40%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.8);
     margin: auto;
-    padding-top: 10px;
+    padding-top: 1%;
 }
 
 #name,
 #age,
 #email,
 #content_type {
-    width: 400px;
-    height: 36px;
-    margin-top: 16px;
+    width: 90%;
+    /* height: 36px; */
+    margin-top: 2%;
     border: none;
     padding: 10px;
 }
 
 .box {
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: 5%;
+    margin-left: 8%;
 }
 
-.textarea {
-    margin-top: 10px;
+textarea {
+    margin-top: 2%;
+    width: 90%;
 }
 
 #submit {
     background-color: red;
     color: white;
     border-radius: 50px;
-    font-size: larger;
-    width: 160px;
+    font-size: 1.3rem;
+    width: 33%;
     height: 45px;
     border: none;
-    margin: 16px 0px 16px 150px;
+    margin: 4% 33%;
     cursor: pointer;
 }
 
@@ -80,3 +81,27 @@ span {
     background: white;
     color: red;
 }
+
+@media only screen and (max-width: 768px) {
+    #survey_form {
+        width: 95%;
+    }
+    #submit {
+        font-size: 1.05rem;
+        letter-spacing: 1px;
+    }
+    #description {
+        font-size: 1.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    #survey_form {
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    #survey_form {
+        width: 70%;
+    }
+  }
