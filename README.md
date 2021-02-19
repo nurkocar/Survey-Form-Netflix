@@ -27,7 +27,7 @@ Project aims to create survey form within html and css.
 
 ## Expected Outcome
 
-![Project 001 Snapshot](Project_001_.png)
+![Project 001 Snapshot](images/Project_001_.png)
 
 ## Objective
 
